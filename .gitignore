@@ -1,0 +1,38 @@
+/web/bundles/
+/web/media/
+/app/bootstrap.php.cache
+/app/cache/*
+/app/logs/*
+/build/
+/vendor/
+/bin/
+/composer.phar
+
+
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+## IDE files to ignore
+bootstrap.sublime-workspace
+nbproject/
+.idea/
+*.tmproj
+.buildpath
+.project
+.settings/
+
+# envvars
+bin/envvars
+
+# to have the possibility to have an own htaccess e.g. with protection (as on prod)
+web/.htaccess
+
+# ignore compiled files (see config.yml assetic: read_from)
+web/compiled/
+
+# ignore parameters so everone can have its own
+app/config/parameters.yml
